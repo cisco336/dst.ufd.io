@@ -9,11 +9,6 @@ const StyledContainer = styled.div`
         width: 100%;
     }
 `;
-const StyledImg = styled.img`
-    width: 100%;
-    src: url('${headerGif}');
-`;
-
 
 const Header = (props) => {
     return (

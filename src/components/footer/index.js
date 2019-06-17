@@ -4,7 +4,6 @@ import { links, data } from './mockData';
 import logo from '../../assets/img/cebolla_70_45.jpg';
 
 const StyledContainer = styled.div`
-    margin-top: 2rem;
     max-width: 800px;
     grid-area: footer;
     display: grid;

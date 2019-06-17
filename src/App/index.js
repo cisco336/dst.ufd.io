@@ -8,14 +8,15 @@ import {
 import theme from '../cssTheme';
 import { ThemeProvider } from 'styled-components';
 import Home from '../screens/home';
+import Inicio from '../screens/inicio';
 
 const App = () => (
   <ThemeProvider theme={theme}>
     <Router>
       <Switch>
-        <Route exact path="/" component={Home} />
+        <Route exact path="/:screen?" component={Home} />
         {/* <Route path="/settings/:set?" component={Settings} /> */}
-        <Redirect to="/" />
+        <Redirect to="/" component={Inicio}/>
       </Switch>
     </Router>
   </ThemeProvider>
