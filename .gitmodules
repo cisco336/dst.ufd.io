@@ -1,0 +1,4 @@
+[submodule "dst.ufd.io"]
+	path = dst.ufd.io
+	url = https://github.com/cisco336/dst.ufd.io.git
+	branch = deploy
