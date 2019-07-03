@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.364cb21e.chunk.css",
+    "main.js": "/static/js/main.def46b25.chunk.js",
+    "main.js.map": "/static/js/main.def46b25.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+    "static/js/2.d9888763.chunk.js": "/static/js/2.d9888763.chunk.js",
+    "static/js/2.d9888763.chunk.js.map": "/static/js/2.d9888763.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.2b3a0bf4a4716cd11151581794edf720.js": "/precache-manifest.2b3a0bf4a4716cd11151581794edf720.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.364cb21e.chunk.css.map": "/static/css/main.364cb21e.chunk.css.map",
+    "static/media/cebolla_70_45.jpg": "/static/media/cebolla_70_45.6a2a30c6.jpg",
+    "static/media/dst-header.gif": "/static/media/dst-header.641e1924.gif",
+    "static/media/sas.png": "/static/media/sas.2a190766.png"
+  }
+}
