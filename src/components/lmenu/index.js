@@ -25,8 +25,8 @@ const StyledContainer = styled.div`
 const leftMenu = (props) => {
     return (
         <StyledContainer>
-            {navItems.map((item) => 
-                <Link to={item.link}>{item.text}</Link>
+            {navItems.map((item, index) => 
+                <Link key={index} to={item.link}>{item.text}</Link>
             )}
         </StyledContainer>
     );

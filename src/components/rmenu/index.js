@@ -17,13 +17,13 @@ const StyledContainer = styled.div`
 const RightMenu = (props) => {
     return (
         <StyledContainer>
-            <img src={aporte}/>
-            <img src={secretaria}/>
-            <img src={sas}/>
-            <img src={activar}/>
-            <img src={actualizar}/>
-            <img src={migrar}/>
-            <img src={correo}/>
+            <img alt='aporte' src={aporte}/>
+            <img alt='secretaria' src={secretaria}/>
+            <img alt='sas' src={sas}/>
+            <img alt='activar' src={activar}/>
+            <img alt='actualizar' src={actualizar}/>
+            <img alt='migrar' src={migrar}/>
+            <img alt='correo' src={correo}/>
         </StyledContainer>
     );
 };
