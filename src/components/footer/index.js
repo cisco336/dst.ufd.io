@@ -52,11 +52,11 @@ const StyledLinks = styled.div`
 const footer = (props) => {
     return (
         <StyledContainer>
-            <img src={logo} />
+            <img alt="Logo" src={logo} />
             <StyledDiv>
                 <StyledLinks>
-                    {links.map((link) => 
-                        <span><a href={link.link}>{link.text}</a></span>
+                    {links.map((link, index) => 
+                        <span key={index}><a href={link.link}>{link.text}</a></span>
                     )}
                 </StyledLinks>
                 <div>

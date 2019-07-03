@@ -13,7 +13,7 @@ const StyledContainer = styled.div`
 const Header = (props) => {
     return (
         <StyledContainer>
-            <img src={headerGif}/>
+            <img alt="Header img" src={headerGif}/>
         </StyledContainer>
     );
 };
